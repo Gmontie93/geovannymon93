@@ -1,0 +1,10 @@
+.img {
+    height: 300px;
+    width: 300px;
+}
+.burger-box{
+    margin: 10px;
+}
+.burger-boxRadius{
+    border: darkred;
+}

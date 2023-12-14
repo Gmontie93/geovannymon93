@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    display: inline-block; /* Ensures the container takes only the space required by the image and button */
+  }
+  
+  .homeImg {
+    display: block;
+    width: 100%; /* Set the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  .button {
+    
+    z-index: 1; /* Ensures the button is above the image */
+    padding: 10px 20px; /* Add padding for better appearance */
+    background-color: #007bff; /* Your button background color */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+  }
+  
