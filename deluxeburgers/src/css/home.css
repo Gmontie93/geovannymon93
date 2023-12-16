@@ -13,9 +13,13 @@
     
     z-index: 1; /* Ensures the button is above the image */
     padding: 10px 20px; /* Add padding for better appearance */
-    background-color: #007bff; /* Your button background color */
+    background-color: #e31411; /* Your button background color */
     color: white; /* Text color */
     border: none;
     cursor: pointer;
+    margin-top: 30px;
+  }
+  h1, h2, h3{
+    font-family: 'Courier New', Courier, monospace;
   }
   

@@ -1,0 +1,32 @@
+/* signup.css */
+
+/* Navbar background color */
+.navbar {
+    background-color: #e31411; /* Change this color to your desired color */
+    /* Additional styles if needed */
+  }
+  
+  /* Navbar brand text color */
+  .navbar-brand {
+    color: #fff; /* Change text color if needed */
+  }
+  
+  /* Navbar links text color */
+  .nav-link {
+    color: #fff; /* Change text color if needed */
+  }
+  
+  /* Navbar links hover color */
+  .nav-link:hover {
+    color: #f0f0f0; /* Change hover text color if needed */
+  }
+  .btn-outline-success {
+    color: #fff; /* Text color */
+    border-color: #fff; /* Border color */
+    background-color: #e31411; /* Change this color to your desired color */
+  }
+  .btn-outline-success:hover {
+    color: #e31411; /* Text color on hover */
+    background-color: #fff; /* Background color on hover */
+  }
+  

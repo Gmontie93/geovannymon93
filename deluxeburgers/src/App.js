@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import {useEffect, useState} from 'react';
 import {Route,Routes} from "react-router-dom";
 import ContactUs from './components/ContactUs';
+import SignUp from './components/SignUp';
 
 function App() {
   const [burgerData,setburgerData] = useState([]);
@@ -33,6 +34,7 @@ function App() {
     <Route path="/home" element={<Home/>}/>
     <Route path="/menu" element={<Menu burgerData={burgerData}/>}/>
     <Route path="/contactus" element={<ContactUs/>}/>
+    <Route path="/signup" element={<SignUp/>}/>
    </Routes>
 
    <Footer/>

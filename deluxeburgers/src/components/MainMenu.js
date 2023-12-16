@@ -1,8 +1,9 @@
+import "../css/navbar.css";
 const MainMenu = () => {
     
     return ( 
         <div>
-        <nav className="navbar navbar-expand-sm navbar-light bg-light">
+        <nav className="navbar navbar-expand-sm navbar-light fixed-top">
               <div className="container">
                 <a className="navbar-brand"  href="/Home"><img src={"/imgs/icons8-burger-48.png"} alt="icon Picture"/>Burgers Deluxe</a>
                 <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -12,7 +13,7 @@ const MainMenu = () => {
                 <div className="collapse navbar-collapse" id="collapsibleNavId">
                     <ul className="navbar-nav mt-2 mt-lg-0 ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="/Home" aria-current="page">Home <span className="visually-hidden">(current)</span></a>
+                            <a className="nav-link" href="/Home">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/Menu">Menu</a>
@@ -29,7 +30,7 @@ const MainMenu = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Misc</a>
                             <div className="dropdown-menu" aria-labelledby="dropdownId">
-                                <a className="dropdown-item" href="/JoinTheFamily">Join The family</a>
+                                <a className="dropdown-item" href="/signup">Join The family</a>
                                 <a className="dropdown-item" href="/Reviews">Reviews</a>
                             </div>
                         </li>
