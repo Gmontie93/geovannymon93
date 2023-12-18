@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../css/reviews.css'; // Import the CSS file
 const Reviews = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -22,9 +22,9 @@ const Reviews = () => {
   };
 
   return (
-    <div>
+    <div className="review-form-container">
       <h2>Share Your Feedback</h2>
-      <form onSubmit={handleSubmit}>
+      <form className="review-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input

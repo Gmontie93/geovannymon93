@@ -8,3 +8,34 @@
 .burger-boxRadius{
     border: darkred;
 }
+/* menu.css */
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .menu-items {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .checkout {
+    flex: 0 0 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    padding-right: 20px;
+  }
+  .checkout button{
+    width: auto;
+    padding: 0px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    color: #e31411;
+    cursor: pointer;
+    margin-left: 8px;
+}
+    

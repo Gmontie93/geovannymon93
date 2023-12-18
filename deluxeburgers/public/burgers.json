@@ -2,44 +2,44 @@
     {
         "BurgerType":"Classic Beef Burger",
         "Description":"A juicy beef patty topped with crisp lettuce, ripe tomato, onions, and pickles, all nestled between a toasted sesame seed bun.",
-        "Price":"9.99",
+        "Price":9.99,
         "Photo":"Classic Beef Burger.png"
         
     },
     {
         "BurgerType":"Classic Cheese Burger",
         "Description":"A juicy beef patty topped with crisp lettuce, ripe tomato, onions, pickles, and melted cheddar cheese, all nestled between a toasted sesame seed bun.",
-        "Price":"10.99",
+        "Price":10.99,
         "Photo":"classic cheese burger.png"
     },
     {
         "BurgerType":"Classic Double Cheese Burger",
         "Description":"Two juicy beef patties topped with crisp lettuce, ripe tomato, onions, pickles, and melted cheddar cheese, all nestled between a toasted sesame seed bun.",
-        "Price":"12.99",
+        "Price":12.99,
         "Photo":"classic double cheese burger.png"
     },
     {
         "BurgerType":"Mushroom Swiss Burger",
         "Description":"A savory beef patty loaded with sautéed mushrooms, melted Swiss cheese, caramelized onions, and a touch of garlic aioli, served on a toasted brioche bun.",
-        "Price":"11.99",
+        "Price":11.99,
         "Photo":"mushroom swiss burger.png"
     },
     {
         "BurgerType":"Spicy Black Bean Burger (Vegetarian)",
         "Description":"A flavorful black bean patty infused with spices, topped with pepper jack cheese, fresh avocado slices, crispy lettuce, and chipotle mayo on a whole wheat bun.",
-        "Price":"12.99",
+        "Price":12.99,
         "Photo":"spicy black bean burger.png"
     },
     {
         "BurgerType":"Fried Chicken Sandwich",
         "Description":"Crispy fried chicken breast coated with seasoned breadcrumbs, topped with tangy coleslaw, dill pickles, and a drizzle of honey mustard dressing, all hugged by a soft potato bun.",
-        "Price":"11.99",
+        "Price":11.99,
         "Photo":"fried chicken sandwich.png"
     },
     {
         "BurgerType":"Beyond Garlic Burger (Vegan)",
         "Description":"Beyond Meat patty smothered in a garlic aioli sauce, paired with vegan cheddar cheese, fried onions, and arugula, served on a vegan whole grain bun.",
-        "Price":"13.99",
+        "Price":13.99,
         "Photo":"beyond bbq burger.png"
     }
 ]

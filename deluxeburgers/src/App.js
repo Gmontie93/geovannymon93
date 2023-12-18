@@ -9,6 +9,7 @@ import {useEffect, useState} from 'react';
 import {Route,Routes} from "react-router-dom";
 import ContactUs from './components/ContactUs';
 import SignUp from './components/SignUp';
+import Reviews from './components/Reviews';
 
 function App() {
   const [burgerData,setburgerData] = useState([]);
@@ -35,6 +36,7 @@ function App() {
     <Route path="/menu" element={<Menu burgerData={burgerData}/>}/>
     <Route path="/contactus" element={<ContactUs/>}/>
     <Route path="/signup" element={<SignUp/>}/>
+    <Route path="/reviews" element={<Reviews/>}/>
    </Routes>
 
    <Footer/>
